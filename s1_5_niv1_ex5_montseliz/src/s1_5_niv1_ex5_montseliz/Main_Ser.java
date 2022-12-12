@@ -88,6 +88,7 @@ public class Main_Ser {
 			return "La persona es diu " + this.name + " " + this.surname + " i té " + this.age + " anys. ";
 		}
 
+		
 }
 
 
