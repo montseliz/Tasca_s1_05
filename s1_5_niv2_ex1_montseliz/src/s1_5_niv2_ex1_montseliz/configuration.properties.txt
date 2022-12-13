@@ -1,3 +1,3 @@
 directoryPath = C:\\Users\\Usuario\\Desktop
-pathFileTxt = C:\\Users\\Usuario\\eclipse-workspace_s1\\s1_5_niv2_ex1_montseliz\\src\\s1_5_niv2_ex1_montseliz
+pathFileTxt = C:\\Users\\Usuario\\GIT\\tasca_s1_05\\s1_5_niv2_ex1_montseliz\\src\\s1_5_niv2_ex1_montseliz
 nameFileTxt = \\fitxer.txt

@@ -6,16 +6,16 @@ import java.util.Date;
 public class Directory2 {
 
 	public static void main(String[] args) {
-		String directoryPath = args[0]; 
-		listDirectory(directoryPath);
+		if (args.length == 0 || args.length > 1) {
+			System.out.println("Error, el directori no existeix.");
+		} else {
+			String directoryPath = args[0]; 
+			listDirectory(directoryPath);
+		}
 	}
 	
 	public static void listDirectory(String directoryPath) {
 		File directory = new File(directoryPath);
-	    if (!directory.exists()) {
-	      System.out.println("El directori no existeix.");
-	      return;
-	    }
 
 	    File[] files = directory.listFiles();
 
@@ -33,11 +33,11 @@ public class Directory2 {
 	    	
 	        if (file.isDirectory()) {
 	            // Si es tracta d'un directori, s'imprimeix la informació i es fa una crida recursiva a la funció
-	            System.out.println("D " + file.getName() + " " + dateString);
+	            System.out.println("|-> D: " + file.getName() + " // " + dateString);
 	            listDirectory(file.getAbsolutePath());
 	        } else {
 	            // Si es tracta d'un arxiu, s'imprimeix la informació
-	            System.out.println("F " + file.getName() + " " + dateString);
+	            System.out.println("+----> F: " + file.getName() + " // " + dateString);
 	        }
 	    }
 	}

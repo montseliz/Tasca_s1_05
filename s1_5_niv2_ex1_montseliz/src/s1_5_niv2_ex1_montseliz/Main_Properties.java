@@ -15,24 +15,24 @@ public class Main_Properties {
 	public static void main(String[] args) {
 		Properties properties = new Properties(); 
 		try {
-			properties.load(new FileInputStream(new File("C:\\Users\\Usuario\\eclipse-workspace_s1\\s1_5_niv2_ex1_montseliz\\src\\s1_5_niv2_ex1_montseliz\\configuration.properties.txt")));
+			properties.load(new FileInputStream(new File("C:\\Users\\Usuario\\GIT\\tasca_s1_05\\s1_5_niv2_ex1_montseliz\\src\\s1_5_niv2_ex1_montseliz\\configuration.properties.txt")));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
-		String directoryPath = properties.getProperty("directoryPath");
-		ArrayList <String> saveDirectory = new ArrayList<>(); 
-		listDirectory(directoryPath, saveDirectory, properties);
-		createFile(saveDirectory, properties); 
+		if (args.length == 0 || args.length > 1) {
+			System.out.println("Error, el directori no existeix.");
+		} else {
+			String directoryPath = properties.getProperty("directoryPath");
+			ArrayList <String> saveDirectory = new ArrayList<>(); 
+			listDirectory(directoryPath, saveDirectory, properties);
+			createFile(saveDirectory, properties); 
+		}
 	}
 	
 	public static void listDirectory(String directoryPath, ArrayList <String> saveDirectory, Properties properties) {
 		File directory = new File (directoryPath);
-	    if (!directory.exists()) {
-	      System.out.println("El directori no existeix.");
-	      return;
-	    }
-
+	    
 	    File[] files = directory.listFiles();
 
 	    Arrays.sort(files);
@@ -45,10 +45,10 @@ public class Main_Properties {
 	    	String dateString = date.toString(); 
 	    	
 	        if (file.isDirectory()) {
-	            saveDirectory.add("D " + file.getName() + " " + dateString);
+	            saveDirectory.add("|-> D: " + file.getName() + " " + dateString);
 	            listDirectory(file.getAbsolutePath(), saveDirectory, properties);
 	        } else {
-	            saveDirectory.add("F " + file.getName() + " " + dateString);
+	            saveDirectory.add("+----> F: " + file.getName() + " " + dateString);
 	        }
 	    }
 	}

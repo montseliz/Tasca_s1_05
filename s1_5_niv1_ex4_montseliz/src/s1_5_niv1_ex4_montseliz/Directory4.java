@@ -13,20 +13,20 @@ import java.util.Date;
 public class Directory4 {
 
 	public static void main(String[] args) {
-		String directoryPath = args[0]; 
-		ArrayList <String> saveDirectory = new ArrayList<>(); 
-		listDirectory(directoryPath, saveDirectory);
-		createFile(saveDirectory); 
-		readFile(); 
+		if (args.length == 0 || args.length > 1) {
+			System.out.println("Error, el directori no existeix.");
+		} else {
+			String directoryPath = args[0]; 
+			ArrayList <String> saveDirectory = new ArrayList<>(); 
+			listDirectory(directoryPath, saveDirectory);
+			createFile(saveDirectory); 
+			readFile();
+		}
 	}
 	
 	public static void listDirectory(String directoryPath, ArrayList <String> saveDirectory) {
 		File directory = new File(directoryPath);
-	    if (!directory.exists()) {
-	      System.out.println("El directori no existeix.");
-	      return;
-	    }
-	    
+		
 	    File[] files = directory.listFiles();
 
 	    Arrays.sort(files);
@@ -39,16 +39,16 @@ public class Directory4 {
 	    	String dateString = date.toString(); 
 	    	
 	        if (file.isDirectory()) {
-	        	saveDirectory.add("D " + file.getName() + " " + dateString);
+	        	saveDirectory.add("|-> D: " + file.getName() + " // " + dateString);
 	            listDirectory(file.getAbsolutePath(),saveDirectory);
 	        } else {
-	            saveDirectory.add("F " + file.getName() + " " + dateString);
+	            saveDirectory.add("+----> F: " + file.getName() + " // " + dateString);
 	        }
 	    }
 	}
 	
 	public static void createFile(ArrayList <String> saveDirectory) {
-	 	File createFile = new File ("C:/Users/Usuario/eclipse-workspace_s1/s1_5_niv1_ex3_montseliz/src/s1_5_niv1_ex3_montseliz/fitxer.txt");
+	 	File createFile = new File ("C:\\Users\\Usuario\\GIT\\tasca_s1_05\\s1_5_niv1_ex3_montseliz\\src\\s1_5_niv1_ex3_montseliz\\fitxer.txt");
 		try {
 			FileWriter fw = new FileWriter(createFile);
 			BufferedWriter bw = new BufferedWriter(fw);
@@ -65,7 +65,7 @@ public class Directory4 {
 	
 	public static void readFile() {
 		try {
-			FileReader fr = new FileReader ("C:/Users/Usuario/eclipse-workspace_s1/s1_5_niv1_ex3_montseliz/src/s1_5_niv1_ex3_montseliz/fitxer.txt");
+			FileReader fr = new FileReader ("C:\\Users\\Usuario\\GIT\\tasca_s1_05\\s1_5_niv1_ex3_montseliz\\src\\s1_5_niv1_ex3_montseliz\\fitxer.txt");
 			BufferedReader br = new BufferedReader(fr); 
 			String line = "";
 			while (line != null) {

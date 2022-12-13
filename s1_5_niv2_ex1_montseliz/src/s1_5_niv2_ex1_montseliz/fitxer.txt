@@ -1,37 +1,37 @@
-F a3ASESOR - nom Demo.LNK Tue May 31 15:49:39 CEST 2022
-F Bonos_Mantenimiento_Volvo_hasta_30-06-2022.PDF Tue Apr 26 13:33:35 CEST 2022
-F desktop.ini Tue Dec 21 11:42:04 CET 2021
-F Discord.lnk Sat Dec 10 11:51:29 CET 2022
-F Eclipse IDE for Enterprise Java and Web Developers - 2022-09.lnk Sat Oct 08 12:51:28 CEST 2022
-D INSTALADOR OFFICE 2010 PROFESSIONAL GUARDAR!!! Sat Dec 10 12:51:29 CET 2022
-F office.exe Tue Jan 04 17:46:56 CET 2022
-F MF0982_3-Adm.gestió_comunicacions-direcció - Acceso directo.lnk Mon Jan 24 16:37:26 CET 2022
-F Microsoft Access 2010.lnk Mon Mar 14 13:41:04 CET 2022
-F Microsoft Excel 2010.lnk Wed Jan 05 12:18:58 CET 2022
-D Microsoft Office Sat Dec 10 12:51:12 CET 2022
-D Herramientas de Microsoft Office 2010 Sat Dec 10 12:51:21 CET 2022
-F Centro de carga de Microsoft Office 2010.lnk Tue Jan 04 17:54:35 CET 2022
-F Certificado digital para proyectos de VBA.lnk Tue Jan 04 17:54:35 CET 2022
-F Galería multimedia de Microsoft.lnk Tue Jan 04 17:54:35 CET 2022
-F Microsoft Office Picture Manager.lnk Tue Jan 04 17:54:35 CET 2022
-F Office Anytime Upgrade.lnk Tue Jan 04 17:54:35 CET 2022
-F Preferencias de idioma de Microsoft Office 2010.lnk Tue Jan 04 17:54:35 CET 2022
-F Microsoft Access 2010.lnk Tue Jan 04 17:54:35 CET 2022
-F Microsoft Excel 2010.lnk Tue Jan 04 17:54:35 CET 2022
-F Microsoft OneNote 2010.lnk Tue Jan 04 17:54:35 CET 2022
-F Microsoft Outlook 2010.lnk Tue Jan 04 17:54:35 CET 2022
-F Microsoft PowerPoint 2010.lnk Tue Jan 04 17:54:35 CET 2022
-F Microsoft Publisher 2010.lnk Tue Jan 04 17:54:35 CET 2022
-F Microsoft Word 2010.lnk Tue Jan 04 17:54:35 CET 2022
-F Microsoft Outlook 2010.lnk Tue Jan 04 17:54:35 CET 2022
-F Microsoft PowerPoint 2010.lnk Mon Mar 07 12:47:39 CET 2022
-F Microsoft Solitaire Collection.lnk Tue Dec 21 12:11:20 CET 2021
-F Microsoft Word 2010.lnk Wed Jan 05 12:19:11 CET 2022
-F Olympic_flag.svg Sat Jan 22 22:37:43 CET 2022
-D Por favor valore nuestros servicios, gracias Sat Dec 10 12:51:03 CET 2022
-F desktop.ini Sat Dec 24 12:42:48 CET 2016
-F Valoracion web 2021.pdf Tue Jul 20 20:18:56 CEST 2021
-F RENOVACION KASPERSKY HP.pdf Sun Nov 13 08:43:36 CET 2022
-F Solicitud Certificado Profesionalidad SOC.pdf Thu Jul 14 16:35:39 CEST 2022
-F Visual Studio Code.lnk Sat Oct 08 13:06:48 CEST 2022
-F Zoom.lnk Tue Jan 04 17:55:57 CET 2022
++----> F: a3ASESOR - nom Demo.LNK Tue May 31 15:49:39 CEST 2022
++----> F: Bonos_Mantenimiento_Volvo_hasta_30-06-2022.PDF Tue Apr 26 13:33:35 CEST 2022
++----> F: desktop.ini Tue Dec 21 11:42:04 CET 2021
++----> F: Discord.lnk Sat Dec 10 11:51:29 CET 2022
++----> F: Eclipse IDE for Enterprise Java and Web Developers - 2022-09.lnk Sat Oct 08 12:51:28 CEST 2022
+|-> D: INSTALADOR OFFICE 2010 PROFESSIONAL GUARDAR!!! Sat Dec 10 12:51:29 CET 2022
++----> F: office.exe Tue Jan 04 17:46:56 CET 2022
++----> F: MF0982_3-Adm.gestió_comunicacions-direcció - Acceso directo.lnk Mon Jan 24 16:37:26 CET 2022
++----> F: Microsoft Access 2010.lnk Mon Mar 14 13:41:04 CET 2022
++----> F: Microsoft Excel 2010.lnk Wed Jan 05 12:18:58 CET 2022
+|-> D: Microsoft Office Sat Dec 10 12:51:12 CET 2022
+|-> D: Herramientas de Microsoft Office 2010 Sat Dec 10 12:51:21 CET 2022
++----> F: Centro de carga de Microsoft Office 2010.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Certificado digital para proyectos de VBA.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Galería multimedia de Microsoft.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Microsoft Office Picture Manager.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Office Anytime Upgrade.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Preferencias de idioma de Microsoft Office 2010.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Microsoft Access 2010.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Microsoft Excel 2010.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Microsoft OneNote 2010.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Microsoft Outlook 2010.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Microsoft PowerPoint 2010.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Microsoft Publisher 2010.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Microsoft Word 2010.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Microsoft Outlook 2010.lnk Tue Jan 04 17:54:35 CET 2022
++----> F: Microsoft PowerPoint 2010.lnk Mon Mar 07 12:47:39 CET 2022
++----> F: Microsoft Solitaire Collection.lnk Tue Dec 21 12:11:20 CET 2021
++----> F: Microsoft Word 2010.lnk Wed Jan 05 12:19:11 CET 2022
++----> F: Olympic_flag.svg Sat Jan 22 22:37:43 CET 2022
+|-> D: Por favor valore nuestros servicios, gracias Sat Dec 10 12:51:03 CET 2022
++----> F: desktop.ini Sat Dec 24 12:42:48 CET 2016
++----> F: Valoracion web 2021.pdf Tue Jul 20 20:18:56 CEST 2021
++----> F: RENOVACION KASPERSKY HP.pdf Sun Nov 13 08:43:36 CET 2022
++----> F: Solicitud Certificado Profesionalidad SOC.pdf Thu Jul 14 16:35:39 CEST 2022
++----> F: Visual Studio Code.lnk Sat Oct 08 13:06:48 CEST 2022
++----> F: Zoom.lnk Tue Jan 04 17:55:57 CET 2022
