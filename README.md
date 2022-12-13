@@ -1,7 +1,8 @@
 # Tasca_s1_05
 Java Utils
 
-NIVELL 1
+NIVELL 1:
+
 - Exercici 1 --> 
 Crea una classe que llisti alfabèticament el contingut d'un directori rebut per paràmetre.
 
@@ -55,7 +56,7 @@ Ara el programa ha de serialitzar un Objecte Java a un fitxer .ser i després l�
 
 ![image](https://user-images.githubusercontent.com/118254693/207463122-d4664455-42c4-4946-bf76-a7842bddea40.png)
 
-NIVELL 2
+NIVELL 2:
 
 - Exercici 1 -->
 Executa l'exercici 3 del nivell anterior parametritzant tots els mètodes en un fitxer de configuració.
